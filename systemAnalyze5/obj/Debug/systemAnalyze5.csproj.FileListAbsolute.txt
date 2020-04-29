@@ -1,0 +1,9 @@
+C:\Users\iljav\source\repos\systemAnalyze5\systemAnalyze5\bin\Debug\systemAnalyze5.exe.config
+C:\Users\iljav\source\repos\systemAnalyze5\systemAnalyze5\bin\Debug\systemAnalyze5.exe
+C:\Users\iljav\source\repos\systemAnalyze5\systemAnalyze5\bin\Debug\systemAnalyze5.pdb
+C:\Users\iljav\source\repos\systemAnalyze5\systemAnalyze5\obj\Debug\systemAnalyze5.csprojAssemblyReference.cache
+C:\Users\iljav\source\repos\systemAnalyze5\systemAnalyze5\obj\Debug\systemAnalyze5.Form1.resources
+C:\Users\iljav\source\repos\systemAnalyze5\systemAnalyze5\obj\Debug\systemAnalyze5.Properties.Resources.resources
+C:\Users\iljav\source\repos\systemAnalyze5\systemAnalyze5\obj\Debug\systemAnalyze5.csproj.GenerateResource.cache
+C:\Users\iljav\source\repos\systemAnalyze5\systemAnalyze5\obj\Debug\systemAnalyze5.exe
+C:\Users\iljav\source\repos\systemAnalyze5\systemAnalyze5\obj\Debug\systemAnalyze5.pdb

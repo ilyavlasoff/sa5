@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "systemAnalyze5", "systemAnalyze5\systemAnalyze5.csproj", "{2C26ECA8-06DF-4A64-84AD-202672803C43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C26ECA8-06DF-4A64-84AD-202672803C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C26ECA8-06DF-4A64-84AD-202672803C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C26ECA8-06DF-4A64-84AD-202672803C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C26ECA8-06DF-4A64-84AD-202672803C43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F5028BD-1F5B-41DB-B6B1-48B5EBA110BE}
+	EndGlobalSection
+EndGlobal
