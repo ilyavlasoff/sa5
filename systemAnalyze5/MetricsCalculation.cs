@@ -9,14 +9,14 @@ namespace systemAnalyze5
     class MetricsCalculation
     {
         private List<List<int>> matrix;
-        int tops;
+        private int tops;
+        private bool is_orient;
 
         public MetricsCalculation(List<List<int>> _matrix, int _topsQuan, bool _orient)
         {
             this.matrix = _matrix;
             this.tops = _topsQuan;
-            if (_orient)
-                this.matrix = transformGraphToUnoriented(_matrix, _topsQuan);
+            is_orient = _orient;
         }
 
         public double getRValue()
@@ -39,12 +39,17 @@ namespace systemAnalyze5
 
         public double getE2Value()
         {
-            double mValue = 0.5*matrix.Sum(x => x.Count(y => y == 1));
+            List<List<int>> transformedMatrix = null;
+            if (this.is_orient)
+                transformedMatrix = transformGraphToUnoriented(this.matrix, tops);
+            else
+                transformedMatrix = this.matrix;
+            double mValue = 0.5*transformedMatrix.Sum(x => x.Count(y => y == 1));
             double gMean = 2 * mValue / tops;
             double E2Value = 0;
             for(int i=0; i!= tops; ++i)
             {
-                E2Value += Math.Pow((matrix[i].Count(x => x == 1) - gMean), 2);
+                E2Value += Math.Pow((transformedMatrix[i].Count(x => x == 1) - gMean), 2);
             }
             return E2Value;
         }
